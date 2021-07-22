@@ -19,7 +19,7 @@
             margin-left: auto;
         }
 
-        .container > div > div > a {
+        .container > div > div > div > a {
             text-decoration: none;
             color: black;
             font-size: 14px;
@@ -50,7 +50,13 @@
         }
 
         li {
+            padding-top: 5px;
             font-size: 14px;
+        }
+
+        li > a {
+            text-decoration: none;
+            color: #5695cd;
         }
 
         @media (min-width: 768px) {
@@ -78,34 +84,40 @@
     <div>
         <h1 style="margin-bottom: 10px">Ibodzoda Ibodullo</h1>
         <div>
-            <a>
-                <i style="color: #5695cd" class="fas fa-location-arrow"></i>
-                &nbsp;&nbsp;Tajikistan, Dushanbe
-            </a>
-        </div>
-        <div style="margin-top: 5px">
-            <a href="mailto:ibodzodaibodullo@gmail.com">
-                <i style="color: #5695cd" class="fas fa-envelope"></i>
-                &nbsp;&nbsp;ibodzodaibodullo@gmail.com
-            </a>
-        </div>
-        <div style="margin-top: 5px">
-            <a href="https://www.linkedin.com/in/ibodzoda" target="_blank">
-                <i style="color: #5695cd" class="fab fa-linkedin"></i>
-                &nbsp;&nbsp;linkedin.com/in/ibodzoda
-            </a>
-        </div>
-        <div style="margin-top: 5px">
-            <a href="https://github.com/ibodzoda-001" target="_blank">
-                <i style="color: #5695cd" class="fab fa-github"></i>
-                &nbsp;&nbsp;github.com/ibodzoda-001
-            </a>
-        </div>
-        <div style="margin-top: 5px">
-            <a>
-                <i style="color: #5695cd" class="fas fa-phone"></i>
-                &nbsp;&nbsp;+992 933 43 23 67
-            </a>
+            <div style="display: inline-block">
+                <a>
+                    <i style="color: #5695cd" class="fas fa-location-arrow"></i>
+                    &nbsp;Tajikistan, Dushanbe
+                </a>
+            </div>
+            <div style="margin-top: 5px; display: inline-block">
+                <b style="margin: 0 10px 0 10px">|</b>
+                <a href="mailto:ibodzodaibodullo@gmail.com">
+                    <i style="color: #5695cd" class="fas fa-envelope"></i>
+                    &nbsp;ibodzodaibodullo@gmail.com
+                </a>
+            </div>
+            <div style="margin-top: 5px; display: inline-block">
+                <b style="margin: 0 10px 0 10px">|</b>
+                <a href="https://www.linkedin.com/in/ibodzoda" target="_blank">
+                    <i style="color: #5695cd" class="fab fa-linkedin"></i>
+                    &nbsp;linkedin.com/in/ibodzoda
+                </a>
+            </div>
+            <div style="margin-top: 5px; display: inline-block">
+                <b style="margin: 0 10px 0 10px">|</b>
+                <a href="https://github.com/ibodzoda-001" target="_blank">
+                    <i style="color: #5695cd" class="fab fa-github"></i>
+                    &nbsp;github.com/ibodzoda-001
+                </a>
+            </div>
+            <div style="margin-top: 5px; display: inline-block">
+                <b style="margin: 0 10px 0 10px">|</b>
+                <a>
+                    <i style="color: #5695cd" class="fas fa-phone"></i>
+                    &nbsp;+992 933 43 23 67
+                </a>
+            </div>
         </div>
     </div>
 
@@ -130,7 +142,7 @@
             </div>
         </div>
 
-        <div id="employmentHistory" style="margin-top: 30px">
+        <div id="employmentHistory" style="margin-top: 40px">
             <div>
                 <div style="display: inline-block">
                     <span class="mainIcon">
@@ -148,11 +160,91 @@
                     <h6>September 2018 - current</h6>
                     <ul>
                         <li>Was the front-end team leader on a project that became the best product of the company.</li>
-                        <li>Worked on two stacks (Web & iOS) at the same time, for the timely delivery of the project.</li>
-                        <li>Implemented Ant Design in web projects, which speeds up the development process by about 30%.</li>
+                        <li>Worked on two stacks (Web & iOS) at the same time, for the timely delivery of the project.
+                        </li>
+                        <li>Implemented Ant Design in web projects, which speeds up the development process by about
+                            30%.
+                        </li>
                         <li>Organized an extreme code day challenge to improve the productivity of colleagues.</li>
-                        <li>Studied and implemented Firebase real-time db, storage, authentication technology in 1 day.</li>
+                        <li>Studied and implemented Firebase real-time db, storage, authentication technology in 1
+                            day.
+                        </li>
                         <li>I help my colleagues improve their algorithms and data structures skills.</li>
+                    </ul>
+                </div>
+                <div style="margin-top: 30px">
+                    <h4>Frontend Developer Intern @ Confida</h4>
+                    <h5>Tajikistan, Dushanbe</h5>
+                    <h6>June 2018 – September 2018</h6>
+                    <ul>
+                        <li>Created an interface of the admin panel intended for testing the main product of the
+                            company.
+                        </li>
+                        <li>implemented algorithm which creates requests to server analyzed responses, this algorithm
+                            allowed us to detect more than 1000 occurrences of corrupted data and found 10 bugs.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="personalProjects" style="margin-top: 40px">
+            <div>
+                <div style="display: inline-block">
+                    <span class="mainIcon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                </div>
+                <div style="margin-left: 5px; display: inline-block">
+                    <h2>Personal Projects</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <ul>
+                        <li>Made an offline system for accounting of cash receipts and warehouse premises of the
+                            restaurant.
+                            <a href="https://github.com/ibodzoda-001/keeper">https://github.com/ibodzoda-001/keeper</a>
+                        </li>
+                        <li>Built an automation system for students absences: The professor adds all the heads of all
+                            groups to the database, then transfers the authority to the head of the group. The head of
+                            the group adds all students and fills out an attendance report every month.
+                            <a href="https://github.com/ibodzoda-001/absence-report">https://github.com/ibodzoda-001/absence-report</a>
+                        </li>
+                        <li>Made a guideline for using OSM in angular. <a
+                                href="https://github.com/ibodzoda-001/angular-osm">https://github.com/ibodzoda-001/angular-osm</a>
+                        </li>
+                        <li>Created an automation system for students scores, where the professor chooses a group and
+                            gives points to each student every month.
+                            <a href="https://github.com/ibodzoda-001/score-report">https://github.com/ibodzoda-001/score-report</a>
+                        </li>
+                        <li>Conducted introductory lessons on C++ and algorithmization for elementary school students.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="competitiveProgrammingAchievements" style="margin-top: 40px">
+            <div>
+                <div style="display: inline-block">
+                    <span class="mainIcon">
+                        <i class="fas fa-trophy"></i>
+                    </span>
+                </div>
+                <div style="margin-left: 5px; display: inline-block">
+                    <h2>Competitive Programming Achievements</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <ul>
+                        <li>ICPC semi-final participant.</li>
+                        <li>All-Russian Team Olympiad in Informatics: 3-rd degree diploma.</li>
+                        <li>Eurasian Team Olympiad in Informatics: 2-nd and two 3-rd degree diplomas.</li>
+                        <li>Dushanbe City Olympiad in Informatics: 1-st and two 2-nd degree diplomas.</li>
+                        <li>National Olympiad in Informatics: 3-rd degree diploma.</li>
+                        <li>International Zhautykov Olympiad in Informatics: certificate of participation.</li>
                     </ul>
                 </div>
             </div>
